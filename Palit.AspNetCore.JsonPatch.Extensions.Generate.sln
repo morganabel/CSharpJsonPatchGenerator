@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2026
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palit.AspNetCore.JsonPatch.Extensions.Generate", "Palit.AspNetCore.JsonPatch.Extensions.Generate\Palit.AspNetCore.JsonPatch.Extensions.Generate.csproj", "{2210F51F-349B-4AB5-8991-2B24EF39C4CC}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Palit.AspNetCore.JsonPatch.Extensions.Generate.Test", "Palit.AspNetCore.JsonPatch.Extensions.Generate.Test\Palit.AspNetCore.JsonPatch.Extensions.Generate.Test.csproj", "{C258EBB3-6DE9-43F0-A122-B4DF8AA4BCBF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{2210F51F-349B-4AB5-8991-2B24EF39C4CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2210F51F-349B-4AB5-8991-2B24EF39C4CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2210F51F-349B-4AB5-8991-2B24EF39C4CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C258EBB3-6DE9-43F0-A122-B4DF8AA4BCBF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C258EBB3-6DE9-43F0-A122-B4DF8AA4BCBF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C258EBB3-6DE9-43F0-A122-B4DF8AA4BCBF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C258EBB3-6DE9-43F0-A122-B4DF8AA4BCBF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
