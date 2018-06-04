@@ -1,8 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Text;
 using Xunit;
-using Palit.AspNetCore.JsonPatch.Extensions.Generate;
 using Palit.AspNetCore.JsonPatch.Extensions.Generate.Test.TestModels;
 using Microsoft.AspNetCore.JsonPatch.Operations;
 using Palit.AspNetCore.JsonPatch.Extensions.Generate.Test.Comparers;
