@@ -4,6 +4,7 @@ using Xunit;
 using Palit.AspNetCore.JsonPatch.Extensions.Generate.Test.TestModels;
 using Microsoft.AspNetCore.JsonPatch.Operations;
 using Palit.AspNetCore.JsonPatch.Extensions.Generate.Test.Comparers;
+using Newtonsoft.Json;
 
 namespace Palit.AspNetCore.JsonPatch.Extensions.Generate.Test
 {
@@ -108,7 +109,8 @@ namespace Palit.AspNetCore.JsonPatch.Extensions.Generate.Test
             };
 
             var generator = new JsonPatchDocumentGenerator();
-            var patch = generator.Generate(original, modified, new Newtonsoft.Json.JsonSerializer() { NullValueHandling = Newtonsoft.Json.NullValueHandling.Ignore });
+            var jsonSerializer = new JsonSerializer { NullValueHandling = NullValueHandling.Ignore };
+            var patch = generator.Generate(original, modified, jsonSerializer);
 
             // Modify original with patch.
             patch.ApplyTo(original);

@@ -2,6 +2,15 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <Authors>Morgan Abel</Authors>
+    <Company>Palit, LLC</Company>
+    <Product />
+    <PackageTags>HttpPatch JsonPatch Json Patch Generator Builder</PackageTags>
+    <Description>Builds on Microsoft.AspNetCore.JsonPatch to generate JSON patch documents by comparing or observing changes to C# objects.</Description>
+    <PackageProjectUrl>https://github.com/morganabel/CSharpJsonPatchGenerator</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/morganabel/CSharpJsonPatchGenerator</RepositoryUrl>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <PackageLicenseUrl>https://github.com/morganabel/CSharpJsonPatchGenerator/blob/master/LICENSE</PackageLicenseUrl>
   </PropertyGroup>
 
   <ItemGroup>
